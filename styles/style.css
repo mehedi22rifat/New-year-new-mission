@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+ .btn{
+    background-color: #F00;
+    padding: 8px 10px;
+    color: #FFF;
+    border:0;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 12px;
+ }
+
+/* .banner related style */
+
+  .banner{
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: black;
+
+  }
+
+  .banner-content{
+    color: #FFF;
+    margin: 100px auto;
+    text-align: center;
+   
+  }
+
+  .banner-grading{
+     text-align: center;
+     font-size:20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+.banner-title{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+}
+
+
+/* offer section related style */
+
+.offer-section{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.offer-title{
+    color: #F00;
+    text-align: center;
+     font-size: 50px;
+     font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.offer-pera{
+    color: #F00;
+   text-align: center;
+   /* font-size: px; */
+   font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   line-height: normal;
+   padding:20px 0px;
+}
+
+
+.offer-grading{
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: sans-serif;
+
+
+}
+
+ .offer-img{
+    width: 400px;
+   padding-top: 20px;
+ }
+
+ /* welcome related style */
+   .welcome-section{
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     position: relative;
+   }
+
+   .welcome-img{
+    width: 200px;
+    margin-right: 50px;
+   }
+
+  .welcome-div{
+       /* position: relative;
+       text-align:left;
+       margin:50px 150px 50px 150px; */
+     
+      
+
+   }
+
+   .welcome-title{
+       color: #FFF;
+       font-size:50px;
+       font-style: normal;
+       font-weight: 900;
+       line-height: 88px;
+       letter-spacing: 7.04px;
+       margin-bottom: 0px;
+       margin-left: 50px;
+      
+   }
+
+   .welcome-desc{
+        color: rgba(255, 255, 255, 0.80);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+   }
+
+   
+   .welcome-btn{
+    position: absolute;
+    margin-left: 50px;
+    
+   }
+
+/* datils related style */
+
+.datils-section{
+    background-color: rgb(242, 237, 237);
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+
+.datils{
+    text-align: center;
+    padding:100px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.datils-span{
+    color: #F00;
+}
+
+
+
+/* comming related style */
+
+.comming-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:  #FFF;
+    margin-top: 100px;
+    padding: 50px auto;
+  
+    
+   
+}
+
+.comming-column{
+    margin-right:60px;
+    text-align: start;
+}
+
+.comming-img{
+    width: 240px;
+    border:5px solid red;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.comming-column-img{
+    width: 80px;
+}
+
+.padding{
+    margin-top: 50px;
+}
+
+/* holidays related style  */
+.holidays-container{
+    /* background-image: url('../resources/Rectangle\ 2.png'); */
+    /* background-position: bottom,right;
+    background-repeat: no-repeat; */
+
+  
+
+}
+
+.holidays-section{
+   
+    background: url('../resources/Rectangle\ 2.png') bottom no-repeat, url('../resources/Rectangle\ 1.png')right no-repeat ;
+    height:890px;
+    margin-top: 100px;
+  
+    /* background: url(img_tree.gif) left top no-repeat,
+     url(img_flwr.gif) right bottom no-repeat,
+      url(paper.gif) left top repeat; */
+
+}
+
+.holidays-content{
+    text-align: center;
+    padding: 5px 80px;
+    margin-bottom: 0px;
+}
+
+.holidays-grading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.holidays-title{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.holidays-span{
+    color: #F00;
+}
+
+
+.holidays-column-content{
+    display: flex;
+    padding-right: 50px;
+   
+}
+
+ .holidays-section .box-img{
+    width: 500px;
+  margin:280px 0px;
+}
+
+ .holidays-section .tara-img{
+   margin: 130px 100px 0px 0px;
+   width: 200px;
+}
+
+
+/* product related style */
+
+.product-section{
+    margin-top: 100px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:start;
+    
+}
+
+.product-grading{
+    color:#F00;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-title{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.single-img>img{
+    width: 200px;
+}
+
+.single-img{
+    /* padding: 0px 15px 20px; */
+   /* margin-right: 30px; */
+   margin-top: 50px;
+   margin-right: 50px;
+  
+}
+
+.single-img>img:hover{
+
+   border: 3px solid rgb(235, 235, 235);
+}
+
+
+/* subscribe related style */
+
+
+.subscribe-section{
+    margin-top: 100px;
+    background-color: #ada8a8;
+}
+ .subscribe{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4e3e3;
+    margin-top: 100px;
+    padding: 20px;
+   
+ }
+
+ input[type="text"], input[type="submit"]{
+    margin-top: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    row-gap: 0;
+   
+ }
+
+
