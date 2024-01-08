@@ -26,7 +26,7 @@
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
-    height: 450px;
+    height: 350px;
     padding: 30px;
     border-radius: 10px;
     background-color: black;
@@ -35,7 +35,7 @@
 
   .banner-content{
     color: #FFF;
-    margin: 100px auto;
+    margin: 60px auto;
     text-align: center;
    
   }
@@ -107,7 +107,7 @@
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 400px;
     border-radius: 10px;
     margin-top: 70px;
     display: flex;
@@ -117,7 +117,7 @@
    }
 
    .welcome-img{
-    width: 200px;
+    width: 160px;
     margin-right: 50px;
    }
 
@@ -125,14 +125,15 @@
        /* position: relative;
        text-align:left;
        margin:50px 150px 50px 150px; */
-     
+    
+
       
 
    }
 
    .welcome-title{
        color: #FFF;
-       font-size:50px;
+       font-size:45px;
        font-style: normal;
        font-weight: 900;
        line-height: 88px;
@@ -144,7 +145,7 @@
 
    .welcome-desc{
         color: rgba(255, 255, 255, 0.80);
-        font-size: 18px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: 30px;
@@ -197,6 +198,33 @@
    
 }
 
+.comming-grading{
+    color: #F00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comming-title{
+    color: #070211;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.comming-red{
+    color: #F00;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+.commint-desc{
+    margin-top: 10px;
+    color: #0f0623;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
 .comming-column{
     margin-right:60px;
     text-align: start;
@@ -207,6 +235,7 @@
     border:5px solid red;
     padding: 15px;
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 .comming-column-img{
@@ -348,6 +377,17 @@
    
  }
 
+ .subscribe-title{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+ .subscribe-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
  input[type="text"], input[type="submit"]{
     margin-top: 20px;
     padding: 10px;
@@ -358,3 +398,77 @@
  }
 
 
+
+/* footer related style */
+
+.footer-section{
+    background-color:black;
+    color:whitesmoke;
+   
+}
+
+/* .footer-ul >li{
+    list-style: none;
+    align-items: center;
+} */
+
+.footer-column{
+    padding: 80px 100px 0px 100px;
+    margin-bottom: 0px;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.footer-img >img{
+    display: block;
+    width:15px;
+}
+
+.footer-right{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+
+.footer-right> .footer-img, .footer-desc{
+    margin: 0px 5px;
+} 
+
+.footer-icon{
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.footer-icon> img{
+    padding: 0px 10px;
+   
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-col{
+    padding: 70px 100px;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+hr{
+    width: 75%;
+    text-align: center;
+    margin: 0px auto;
+}
