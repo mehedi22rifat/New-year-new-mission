@@ -392,6 +392,12 @@
    
  }
 
+ input[type="submit"]{
+    background-color: #F00;
+    font-weight: bold;
+    color:aliceblue;
+ }
+
 
 
 /* footer related style */
