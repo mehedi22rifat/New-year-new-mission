@@ -303,7 +303,7 @@
 }
 
  .holidays-section .tara-img{
-   margin: 130px 100px 0px 0px;
+   margin: 130px 120px 0px 0px;
    width: 200px;
 }
 
@@ -343,19 +343,23 @@
 
 }
 
+.product-content{
+    margin-top: 30px;
+}
 .single-img{
     width: 200px;
     margin: 5px 20px;
-    text-align: center; 
-}
-.product-name{
-    text-align: center;
+     
 }
 
 .single-img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} 
+    border-radius: 8px;
+}
 
+.product-name{
+    text-align: center;
+}
 /* subscribe related style */
 
 
@@ -389,7 +393,6 @@
     border: 0;
     border-radius: 5px;
     row-gap: 0;
-   
  }
 
  input[type="submit"]{
@@ -397,8 +400,6 @@
     font-weight: bold;
     color:aliceblue;
  }
-
-
 
 /* footer related style */
 
